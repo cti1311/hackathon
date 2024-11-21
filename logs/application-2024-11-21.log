@@ -1,0 +1,100 @@
+2024-11-21T15:37:46.029Z [INFO]: Server is running on port 3000
+2024-11-21T15:46:19.226Z [INFO]: Server is running on port 3000
+2024-11-21T15:46:58.527Z [INFO]: Server is running on port 3000
+2024-11-21T15:48:33.680Z [INFO]: Received request to fetch Confluence page with ID: 1821409688
+2024-11-21T15:48:33.680Z [INFO]: Fetching Confluence page with ID: 1821409688
+2024-11-21T15:48:34.360Z [INFO]: Successfully fetched Confluence page: 1821409688
+2024-11-21T15:48:34.361Z [INFO]: Successfully handled request for page ID: 1821409688
+2024-11-21T15:55:02.529Z [INFO]: Server is running on port 3000
+2024-11-21T15:55:05.671Z [INFO]: Received request to fetch Confluence page with ID: 1821409688
+2024-11-21T15:55:05.671Z [INFO]: Fetching Confluence page with ID: 1821409688
+2024-11-21T15:55:06.152Z [INFO]: Successfully fetched Confluence page: 1821409688
+2024-11-21T15:55:06.153Z [INFO]: Successfully handled request for page ID: 1821409688
+2024-11-21T15:56:20.811Z [INFO]: Received request to fetch Confluence page with ID: 1821409680
+2024-11-21T15:56:20.811Z [INFO]: Fetching Confluence page with ID: 1821409680
+2024-11-21T15:56:21.215Z [ERROR]: Error fetching Confluence page 1821409680: Failed to fetch page with ID 1821409680: com.atlassian.confluence.api.service.exceptions.NotFoundException: No content found with id : 1821409680
+2024-11-21T15:56:21.215Z [ERROR]: Failed to fetch Confluence page 1821409680: Failed to fetch page with ID 1821409680: com.atlassian.confluence.api.service.exceptions.NotFoundException: No content found with id : 1821409680
+2024-11-21T15:56:31.656Z [INFO]: Received request to fetch Confluence page with ID: 1821409688
+2024-11-21T15:56:31.656Z [INFO]: Fetching Confluence page with ID: 1821409688
+2024-11-21T15:56:32.078Z [INFO]: Successfully fetched Confluence page: 1821409688
+2024-11-21T15:56:32.079Z [INFO]: Successfully handled request for page ID: 1821409688
+2024-11-21T15:57:48.936Z [INFO]: Server is running on port 3000
+2024-11-21T15:57:53.547Z [INFO]: Received request to fetch Confluence page with ID: 1821409688
+2024-11-21T15:57:53.548Z [INFO]: Fetching Confluence page with ID: 1821409688
+2024-11-21T15:57:54.018Z [INFO]: Successfully fetched Confluence page: 1821409688
+2024-11-21T15:57:54.018Z [INFO]: Successfully handled request for page ID: 1821409688
+2024-11-21T16:00:30.191Z [INFO]: Server is running on port 3000
+2024-11-21T16:00:33.344Z [INFO]: Received request to fetch Confluence page with ID: 1821409688
+2024-11-21T16:00:33.345Z [INFO]: Fetching Confluence page with ID: 1821409688
+2024-11-21T16:00:34.042Z [INFO]: Successfully fetched Confluence page: 1821409688
+2024-11-21T16:00:34.042Z [INFO]: Successfully handled request for page ID: 1821409688
+2024-11-21T16:12:57.422Z [INFO]: Server is running on port 3000
+2024-11-21T16:15:35.525Z [INFO]: Server is running on port 3000
+2024-11-21T16:15:38.275Z [INFO]: Received request to create Confluence page. Space: undefined, Title: undefined
+2024-11-21T16:15:38.276Z [INFO]: Creating Confluence page in space: undefined, title: undefined
+2024-11-21T16:15:38.909Z [ERROR]: Error creating Confluence page: Request failed with status code 400
+2024-11-21T16:15:38.909Z [ERROR]: Failed to create Confluence page: Request failed with status code 400
+2024-11-21T16:16:10.256Z [INFO]: Received request to create Confluence page. Space: undefined, Title: undefined
+2024-11-21T16:16:10.256Z [INFO]: Creating Confluence page in space: undefined, title: undefined
+2024-11-21T16:16:10.642Z [ERROR]: Error creating Confluence page: Request failed with status code 400
+2024-11-21T16:16:10.642Z [ERROR]: Failed to create Confluence page: Request failed with status code 400
+2024-11-21T16:17:23.048Z [INFO]: Server is running on port 3000
+2024-11-21T16:17:26.225Z [INFO]: Received request to create Confluence page. Space: undefined, Title: undefined
+2024-11-21T16:17:26.226Z [INFO]: Creating Confluence page in space: undefined, title: undefined
+2024-11-21T16:17:26.671Z [ERROR]: Error creating Confluence page: pageId is not defined
+2024-11-21T16:17:26.672Z [ERROR]: Failed to create Confluence page: pageId is not defined
+2024-11-21T16:20:06.801Z [INFO]: Server is running on port 3000
+2024-11-21T16:20:09.726Z [INFO]: Received request to create Confluence page. Space: undefined, Title: undefined
+2024-11-21T16:20:09.729Z [INFO]: Creating Confluence page in space: undefined, title: undefined
+2024-11-21T16:20:10.177Z [ERROR]: Error creating Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:20:10.178Z [ERROR]: Failed to create Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:23:22.347Z [INFO]: Received request to create Confluence page. Space: undefined, Title: undefined
+2024-11-21T16:23:22.348Z [INFO]: Creating Confluence page in space: undefined, title: undefined
+2024-11-21T16:23:22.742Z [ERROR]: Error creating Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:23:22.743Z [ERROR]: Failed to create Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:25:03.102Z [INFO]: Server is running on port 3000
+2024-11-21T16:25:08.450Z [INFO]: Received request to create Confluence page. Space: undefined, Title: undefined
+2024-11-21T16:25:08.450Z [INFO]: Creating Confluence page in space: undefined, title: undefined
+2024-11-21T16:25:08.877Z [ERROR]: Error creating Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:25:08.878Z [ERROR]: Failed to create Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:25:31.527Z [INFO]: Server is running on port 3000
+2024-11-21T16:25:34.066Z [INFO]: [object Object]
+2024-11-21T16:25:34.067Z [INFO]: Received request to create Confluence page. Space: undefined, Title: undefined
+2024-11-21T16:25:34.067Z [INFO]: Creating Confluence page in space: undefined, title: undefined
+2024-11-21T16:25:34.489Z [ERROR]: Error creating Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:25:34.490Z [ERROR]: Failed to create Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:25:58.400Z [INFO]: Server is running on port 3000
+2024-11-21T16:26:00.809Z [INFO]: {}
+2024-11-21T16:26:00.809Z [INFO]: Received request to create Confluence page. Space: undefined, Title: undefined
+2024-11-21T16:26:00.810Z [INFO]: Creating Confluence page in space: undefined, title: undefined
+2024-11-21T16:26:01.430Z [ERROR]: Error creating Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:26:01.430Z [ERROR]: Failed to create Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: Could not create content with type page
+2024-11-21T16:27:10.724Z [INFO]: {"spaceKey":"TestSpace","title":"test","content":"<p>This is a test page content.</p>"}
+2024-11-21T16:27:10.725Z [INFO]: Received request to create Confluence page. Space: TestSpace, Title: test
+2024-11-21T16:27:10.725Z [INFO]: Creating Confluence page in space: TestSpace, title: test
+2024-11-21T16:27:11.467Z [INFO]: Successfully created Confluence page: test
+2024-11-21T16:27:11.467Z [INFO]: Successfully created Confluence page: test
+2024-11-21T18:09:56.125Z [INFO]: Server is running on port 3000
+2024-11-21T18:11:09.455Z [INFO]: Received request to fetch Confluence page with ID: 1821409688
+2024-11-21T18:11:09.457Z [INFO]: Fetching Confluence page with ID: 1821409688
+2024-11-21T18:11:10.553Z [INFO]: Successfully fetched Confluence page: 1821409688
+2024-11-21T18:11:10.554Z [INFO]: Successfully handled request for page ID: 1821409688
+2024-11-21T18:11:43.919Z [INFO]: Received request to fetch Confluence page with ID: 1821409688
+2024-11-21T18:11:43.920Z [INFO]: Fetching Confluence page with ID: 1821409688
+2024-11-21T18:11:44.745Z [INFO]: Successfully fetched Confluence page: 1821409688
+2024-11-21T18:11:44.746Z [INFO]: Successfully handled request for page ID: 1821409688
+2024-11-21T18:12:14.481Z [INFO]: {"spaceKey":"TestSpace","title":"test","content":"<p>This is a test page content.</p>"}
+2024-11-21T18:12:14.482Z [INFO]: Received request to create Confluence page. Space: TestSpace, Title: test
+2024-11-21T18:12:14.483Z [INFO]: Creating Confluence page in space: TestSpace, title: test
+2024-11-21T18:12:15.673Z [INFO]: Successfully created Confluence page: test
+2024-11-21T18:12:15.674Z [INFO]: Successfully created Confluence page: test
+2024-11-21T18:15:35.436Z [INFO]: {"spaceKey":"TestSpace","title":"tech doc","content":"<p>This is a test page content.</p>"}
+2024-11-21T18:15:35.437Z [INFO]: Received request to create Confluence page. Space: TestSpace, Title: tech doc
+2024-11-21T18:15:35.437Z [INFO]: Creating Confluence page in space: TestSpace, title: tech doc
+2024-11-21T18:15:35.580Z [ERROR]: Error creating Confluence page: Failed to create page: getaddrinfo ENOTFOUND payuindia.atlassian.net
+2024-11-21T18:15:35.581Z [ERROR]: Failed to create Confluence page: Failed to create page: getaddrinfo ENOTFOUND payuindia.atlassian.net
+2024-11-21T18:15:52.938Z [INFO]: {"spaceKey":"TestSpace","title":"tech doc","content":"<p>This is a test page content.</p>"}
+2024-11-21T18:15:52.939Z [INFO]: Received request to create Confluence page. Space: TestSpace, Title: tech doc
+2024-11-21T18:15:52.939Z [INFO]: Creating Confluence page in space: TestSpace, title: tech doc
+2024-11-21T18:15:53.991Z [INFO]: Successfully created Confluence page: tech doc
+2024-11-21T18:15:53.993Z [INFO]: Successfully created Confluence page: tech doc

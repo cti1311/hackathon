@@ -1,0 +1,1293 @@
+2024-11-21T20:57:00.751Z [INFO]: Server is running on port 3000
+2024-11-21T20:59:06.678Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: tech doc
+2024-11-21T20:59:06.679Z [INFO]: Generating text with ChatGPT for prompt: "Are semicolons optional in JavaScript?"
+2024-11-21T20:59:16.608Z [INFO]: Successfully generated text with ChatGPT for prompt: "Are semicolons optional in JavaScript?"
+2024-11-21T20:59:16.608Z [INFO]: ChatGPT output generated successfully for prompt: "Are semicolons optional in JavaScript?"
+2024-11-21T20:59:16.609Z [INFO]: Creating Confluence page in space: TestSpace, title: tech doc
+2024-11-21T20:59:17.614Z [ERROR]: Error creating Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: A page with this title already exists: A page already exists with the same TITLE in this space
+2024-11-21T20:59:17.615Z [ERROR]: Failed to create Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: A page with this title already exists: A page already exists with the same TITLE in this space
+2024-11-21T21:04:01.408Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:04:01.409Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:04:02.182Z [ERROR]: Error fetching Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:04:02.184Z [ERROR]: Failed to fetch Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:04:45.912Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:04:45.913Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:04:46.759Z [ERROR]: Error fetching Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:04:46.760Z [ERROR]: Failed to fetch Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:04:48.430Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:04:48.431Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:04:48.917Z [ERROR]: Error fetching Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:04:48.920Z [ERROR]: Failed to fetch Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:05:20.154Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:05:20.157Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:05:20.852Z [ERROR]: Error fetching Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:05:20.853Z [ERROR]: Failed to fetch Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:05:25.207Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:05:25.207Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:05:25.665Z [ERROR]: Error fetching Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:05:25.666Z [ERROR]: Failed to fetch Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:05:26.536Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:05:26.537Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:05:26.908Z [ERROR]: Error fetching Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:05:26.909Z [ERROR]: Failed to fetch Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:05:27.769Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:05:27.774Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:05:28.176Z [ERROR]: Error fetching Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:05:28.177Z [ERROR]: Failed to fetch Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:06:03.219Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:06:03.219Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:06:03.866Z [ERROR]: Error fetching Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:06:03.866Z [ERROR]: Failed to fetch Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:07:17.864Z [INFO]: Received request to fetch Confluence page with ID: 2491121716
+2024-11-21T21:07:17.865Z [INFO]: Fetching Confluence page with ID: 2491121716
+2024-11-21T21:07:18.721Z [INFO]: Successfully fetched Confluence page: 2491121716
+2024-11-21T21:07:18.721Z [INFO]: Successfully handled request for page ID: 2491121716
+2024-11-21T21:09:30.358Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:09:30.358Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:09:31.636Z [ERROR]: Error fetching Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:09:31.637Z [ERROR]: Failed to fetch Confluence page 2407891301: Failed to fetch page with ID 2407891301: com.atlassian.confluence.api.service.exceptions.PermissionException: Space is restricted
+2024-11-21T21:10:50.747Z [INFO]: Received request to fetch Confluence page with ID: 2407891301
+2024-11-21T21:10:50.748Z [INFO]: Fetching Confluence page with ID: 2407891301
+2024-11-21T21:10:51.605Z [INFO]: Successfully fetched Confluence page: 2407891301
+2024-11-21T21:10:51.605Z [INFO]: Successfully handled request for page ID: 2407891301
+2024-11-21T21:11:21.177Z [INFO]: Server is running on port 3000
+2024-11-21T21:11:56.802Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: UPI flow 123
+2024-11-21T21:11:56.803Z [INFO]: Generating text with ChatGPT for prompt: "<table data-table-width="938" data-layout="default" ac:local-id="7d0d9aa1-63be-4054-b1ce-a452d28373b7"><colgroup><col style="width: 140.0px;" /><col style="width: 351.0px;" /><col style="width: 191.0px;" /><col style="width: 256.0px;" /></colgroup><tbody><tr><th><p><strong>UPI Type</strong></p></th><th><p><strong>Description</strong></p></th><th><p><strong>PG and ibibo_code</strong></p></th><th><p><strong>Flow(Non-seamless, Seamless, s2s) and Device (Android, iOS)Supported</strong></p></th></tr><tr><td><p>UPI Collect</p></td><td><p>This require VPA address as an input in the _payment API call.</p></td><td><p>PG= UPI<br />ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Collect</p></td><td><p>This require VPA address as an input along with beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPITPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Generic Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI TPV Specific Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Collect Autopay</p></td><td><p>This require VPA address as an input along with si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ UPI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, then select the VPA address option to enter the UPI ID.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZUPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ OMNI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, but select the phone number option to enter the User Phone Number.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZOMNI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr></tbody></table><p />"
+2024-11-21T21:12:07.203Z [INFO]: Successfully generated text with ChatGPT for prompt: "<table data-table-width="938" data-layout="default" ac:local-id="7d0d9aa1-63be-4054-b1ce-a452d28373b7"><colgroup><col style="width: 140.0px;" /><col style="width: 351.0px;" /><col style="width: 191.0px;" /><col style="width: 256.0px;" /></colgroup><tbody><tr><th><p><strong>UPI Type</strong></p></th><th><p><strong>Description</strong></p></th><th><p><strong>PG and ibibo_code</strong></p></th><th><p><strong>Flow(Non-seamless, Seamless, s2s) and Device (Android, iOS)Supported</strong></p></th></tr><tr><td><p>UPI Collect</p></td><td><p>This require VPA address as an input in the _payment API call.</p></td><td><p>PG= UPI<br />ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Collect</p></td><td><p>This require VPA address as an input along with beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPITPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Generic Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI TPV Specific Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Collect Autopay</p></td><td><p>This require VPA address as an input along with si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ UPI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, then select the VPA address option to enter the UPI ID.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZUPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ OMNI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, but select the phone number option to enter the User Phone Number.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZOMNI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr></tbody></table><p />"
+2024-11-21T21:12:07.205Z [INFO]: ChatGPT output generated successfully for prompt: "<table data-table-width="938" data-layout="default" ac:local-id="7d0d9aa1-63be-4054-b1ce-a452d28373b7"><colgroup><col style="width: 140.0px;" /><col style="width: 351.0px;" /><col style="width: 191.0px;" /><col style="width: 256.0px;" /></colgroup><tbody><tr><th><p><strong>UPI Type</strong></p></th><th><p><strong>Description</strong></p></th><th><p><strong>PG and ibibo_code</strong></p></th><th><p><strong>Flow(Non-seamless, Seamless, s2s) and Device (Android, iOS)Supported</strong></p></th></tr><tr><td><p>UPI Collect</p></td><td><p>This require VPA address as an input in the _payment API call.</p></td><td><p>PG= UPI<br />ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Collect</p></td><td><p>This require VPA address as an input along with beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPITPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Generic Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI TPV Specific Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Collect Autopay</p></td><td><p>This require VPA address as an input along with si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ UPI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, then select the VPA address option to enter the UPI ID.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZUPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ OMNI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, but select the phone number option to enter the User Phone Number.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZOMNI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr></tbody></table><p />"
+2024-11-21T21:12:07.209Z [INFO]: Creating Confluence page in space: TestSpace, title: UPI flow 123
+2024-11-21T21:12:08.237Z [INFO]: Successfully created Confluence page: UPI flow 123
+2024-11-21T21:12:08.237Z [INFO]: Successfully created Confluence page: UPI flow 123
+2024-11-21T21:16:01.295Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: UPI flow 123
+2024-11-21T21:16:01.295Z [INFO]: Generating text with ChatGPT for prompt: "<table data-table-width="938" data-layout="default" ac:local-id="7d0d9aa1-63be-4054-b1ce-a452d28373b7"><colgroup><col style="width: 140.0px;" /><col style="width: 351.0px;" /><col style="width: 191.0px;" /><col style="width: 256.0px;" /></colgroup><tbody><tr><th><p><strong>UPI Type</strong></p></th><th><p><strong>Description</strong></p></th><th><p><strong>PG and ibibo_code</strong></p></th><th><p><strong>Flow(Non-seamless, Seamless, s2s) and Device (Android, iOS)Supported</strong></p></th></tr><tr><td><p>UPI Collect</p></td><td><p>This require VPA address as an input in the _payment API call.</p></td><td><p>PG= UPI<br />ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Collect</p></td><td><p>This require VPA address as an input along with beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPITPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Generic Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI TPV Specific Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Collect Autopay</p></td><td><p>This require VPA address as an input along with si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ UPI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, then select the VPA address option to enter the UPI ID.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZUPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ OMNI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, but select the phone number option to enter the User Phone Number.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZOMNI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr></tbody></table><p />"
+2024-11-21T21:16:10.701Z [INFO]: Successfully generated text with ChatGPT for prompt: "<table data-table-width="938" data-layout="default" ac:local-id="7d0d9aa1-63be-4054-b1ce-a452d28373b7"><colgroup><col style="width: 140.0px;" /><col style="width: 351.0px;" /><col style="width: 191.0px;" /><col style="width: 256.0px;" /></colgroup><tbody><tr><th><p><strong>UPI Type</strong></p></th><th><p><strong>Description</strong></p></th><th><p><strong>PG and ibibo_code</strong></p></th><th><p><strong>Flow(Non-seamless, Seamless, s2s) and Device (Android, iOS)Supported</strong></p></th></tr><tr><td><p>UPI Collect</p></td><td><p>This require VPA address as an input in the _payment API call.</p></td><td><p>PG= UPI<br />ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Collect</p></td><td><p>This require VPA address as an input along with beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPITPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Generic Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI TPV Specific Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Collect Autopay</p></td><td><p>This require VPA address as an input along with si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ UPI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, then select the VPA address option to enter the UPI ID.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZUPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ OMNI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, but select the phone number option to enter the User Phone Number.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZOMNI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr></tbody></table><p />"
+2024-11-21T21:16:10.706Z [INFO]: ChatGPT output generated successfully for prompt: "<table data-table-width="938" data-layout="default" ac:local-id="7d0d9aa1-63be-4054-b1ce-a452d28373b7"><colgroup><col style="width: 140.0px;" /><col style="width: 351.0px;" /><col style="width: 191.0px;" /><col style="width: 256.0px;" /></colgroup><tbody><tr><th><p><strong>UPI Type</strong></p></th><th><p><strong>Description</strong></p></th><th><p><strong>PG and ibibo_code</strong></p></th><th><p><strong>Flow(Non-seamless, Seamless, s2s) and Device (Android, iOS)Supported</strong></p></th></tr><tr><td><p>UPI Collect</p></td><td><p>This require VPA address as an input in the _payment API call.</p></td><td><p>PG= UPI<br />ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Collect</p></td><td><p>This require VPA address as an input along with beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPITPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Generic Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI TPV Specific Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Collect Autopay</p></td><td><p>This require VPA address as an input along with si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ UPI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, then select the VPA address option to enter the UPI ID.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZUPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ OMNI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, but select the phone number option to enter the User Phone Number.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZOMNI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr></tbody></table><p />"
+2024-11-21T21:16:10.711Z [INFO]: Creating Confluence page in space: TestSpace, title: UPI flow 123
+2024-11-21T21:16:11.780Z [INFO]: Successfully created Confluence page: UPI flow 123
+2024-11-21T21:16:11.781Z [INFO]: Successfully created Confluence page: UPI flow 123
+2024-11-21T21:19:36.237Z [INFO]: Server is running on port 3000
+2024-11-21T21:19:47.039Z [INFO]: Server is running on port 3000
+2024-11-21T21:19:53.377Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: UPI flow 123
+2024-11-21T21:19:53.378Z [INFO]: Generating text with ChatGPT for prompt: "<table data-table-width="938" data-layout="default" ac:local-id="7d0d9aa1-63be-4054-b1ce-a452d28373b7"><colgroup><col style="width: 140.0px;" /><col style="width: 351.0px;" /><col style="width: 191.0px;" /><col style="width: 256.0px;" /></colgroup><tbody><tr><th><p><strong>UPI Type</strong></p></th><th><p><strong>Description</strong></p></th><th><p><strong>PG and ibibo_code</strong></p></th><th><p><strong>Flow(Non-seamless, Seamless, s2s) and Device (Android, iOS)Supported</strong></p></th></tr><tr><td><p>UPI Collect</p></td><td><p>This require VPA address as an input in the _payment API call.</p></td><td><p>PG= UPI<br />ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Collect</p></td><td><p>This require VPA address as an input along with beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPITPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Generic Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI TPV Specific Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Collect Autopay</p></td><td><p>This require VPA address as an input along with si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ UPI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, then select the VPA address option to enter the UPI ID.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZUPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ OMNI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, but select the phone number option to enter the User Phone Number.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZOMNI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr></tbody></table><p />"
+2024-11-21T21:20:01.920Z [INFO]: Successfully generated text with ChatGPT for prompt: "<table data-table-width="938" data-layout="default" ac:local-id="7d0d9aa1-63be-4054-b1ce-a452d28373b7"><colgroup><col style="width: 140.0px;" /><col style="width: 351.0px;" /><col style="width: 191.0px;" /><col style="width: 256.0px;" /></colgroup><tbody><tr><th><p><strong>UPI Type</strong></p></th><th><p><strong>Description</strong></p></th><th><p><strong>PG and ibibo_code</strong></p></th><th><p><strong>Flow(Non-seamless, Seamless, s2s) and Device (Android, iOS)Supported</strong></p></th></tr><tr><td><p>UPI Collect</p></td><td><p>This require VPA address as an input in the _payment API call.</p></td><td><p>PG= UPI<br />ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Collect</p></td><td><p>This require VPA address as an input along with beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPITPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Generic Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI TPV Specific Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Collect Autopay</p></td><td><p>This require VPA address as an input along with si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ UPI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, then select the VPA address option to enter the UPI ID.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZUPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ OMNI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, but select the phone number option to enter the User Phone Number.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZOMNI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr></tbody></table><p />"
+2024-11-21T21:20:01.925Z [INFO]: ChatGPT output generated successfully for prompt: "<table data-table-width="938" data-layout="default" ac:local-id="7d0d9aa1-63be-4054-b1ce-a452d28373b7"><colgroup><col style="width: 140.0px;" /><col style="width: 351.0px;" /><col style="width: 191.0px;" /><col style="width: 256.0px;" /></colgroup><tbody><tr><th><p><strong>UPI Type</strong></p></th><th><p><strong>Description</strong></p></th><th><p><strong>PG and ibibo_code</strong></p></th><th><p><strong>Flow(Non-seamless, Seamless, s2s) and Device (Android, iOS)Supported</strong></p></th></tr><tr><td><p>UPI Collect</p></td><td><p>This require VPA address as an input in the _payment API call.</p></td><td><p>PG= UPI<br />ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent</p></td><td><p>This does not require VPA address in the input, directly redirect the customer to the PSP app, once user click on the application on checkout page.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Collect</p></td><td><p>This require VPA address as an input along with beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPITPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI TPV Generic Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI TPV Specific Intent</p></td><td><p>This does not require VPA address as an input, but require beneficiaryAccountNumber in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTTPV</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Collect Autopay</p></td><td><p>This require VPA address as an input along with si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = UPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>UPI Generic Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices except iOS Device.</p></td></tr><tr><td><p>UPI Specific Intent Autopay</p></td><td><p>This does not require VPA address as an input, but require si_details in the _payment API call.</p></td><td><p>PG= UPI</p><p>ibibo_code = INTENT</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ UPI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, then select the VPA address option to enter the UPI ID.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZUPI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr><tr><td><p>TEZ OMNI</p></td><td><p>This is direct Gpay Flow, when user enter the direct Gpay Option on the L1 Page and lands on the Gpay L2 Page, but select the phone number option to enter the User Phone Number.</p></td><td><p>PG= UPI</p><p>ibibo_code = TEZOMNI</p></td><td><p>Supported on all flows and on all type of devices.</p></td></tr></tbody></table><p />"
+2024-11-21T21:20:01.928Z [INFO]: gpt output: # UPI Payment Types Overview
+
+This document provides a structured overview of various UPI (Unified Payments Interface) payment types, along with their descriptions, related codes, and supported flows and devices.
+
+| **UPI Type**                     | **Description**                                                                                              | **PG and ibibo_code**                            | **Flow and Device Support**                                          |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------------------------------------------------------------------|
+| **UPI Collect**                   | Requires VPA (Virtual Payment Address) as input in the payment API call.                                   | PG = UPI <br> ibibo_code = UPI                   | Supported on all flows and device types.                            |
+| **UPI Generic Intent**            | No VPA required; redirects customer to PSP (Payment Service Provider) app upon checkout.                    | PG = UPI <br> ibibo_code = INTENT                | Supported on all flows and devices except iOS.                     |
+| **UPI Specific Intent**           | No VPA required; redirects customer to PSP app upon checkout.                                              | PG = UPI <br> ibibo_code = INTENT                | Supported on all flows and device types.                            |
+| **UPI TPV Collect**               | Requires VPA as well as beneficiary account number in the payment API call.                                 | PG = UPI <br> ibibo_code = UPITPV                | Supported on all flows and device types.                            |
+| **UPI TPV Generic Intent**        | No VPA required; requires beneficiary account number in the payment API call.                               | PG = UPI <br> ibibo_code = INTTPV                | Supported on all flows and devices except iOS.                     |
+| **UPI TPV Specific Intent**       | No VPA required; requires beneficiary account number in the payment API call.                               | PG = UPI <br> ibibo_code = INTTPV                | Supported on all flows and device types.                            |
+| **UPI Collect Autopay**           | Requires VPA as input along with SI details in the payment API call.                                        | PG = UPI <br> ibibo_code = UPI                   | Supported on all flows and device types.                            |
+| **UPI Generic Intent Autopay**    | No VPA required; requires SI details in the payment API call.                                              | PG = UPI <br> ibibo_code = INTENT                | Supported on all flows and devices except iOS.                     |
+| **UPI Specific Intent Autopay**   | No VPA required; requires SI details in the payment API call.                                              | PG = UPI <br> ibibo_code = INTENT                | Supported on all flows and device types.                            |
+| **TEZ UPI**                       | Direct Gpay flow; allows user to enter UPI ID after selecting the option on the payment page.                | PG = UPI <br> ibibo_code = TEZUPI                | Supported on all flows and device types.                            |
+| **TEZ OMNI**                      | Direct Gpay flow; allows user to enter phone number instead of UPI ID on the payment page.                   | PG = UPI <br> ibibo_code = TEZOMNI               | Supported on all flows and device types.                            |
+
+## Summary
+This table serves as a quick reference for understanding the different UPI payment methods available, including their specific requirements and compatibility with various devices. Each type has distinct functionalities suited for different payment scenarios.
+2024-11-21T21:20:01.933Z [INFO]: Creating Confluence page in space: TestSpace, title: UPI flow 123, body: # UPI Payment Types Overview
+
+This document provides a structured overview of various UPI (Unified Payments Interface) payment types, along with their descriptions, related codes, and supported flows and devices.
+
+| **UPI Type**                     | **Description**                                                                                              | **PG and ibibo_code**                            | **Flow and Device Support**                                          |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------------------------------------------------------------------|
+| **UPI Collect**                   | Requires VPA (Virtual Payment Address) as input in the payment API call.                                   | PG = UPI <br> ibibo_code = UPI                   | Supported on all flows and device types.                            |
+| **UPI Generic Intent**            | No VPA required; redirects customer to PSP (Payment Service Provider) app upon checkout.                    | PG = UPI <br> ibibo_code = INTENT                | Supported on all flows and devices except iOS.                     |
+| **UPI Specific Intent**           | No VPA required; redirects customer to PSP app upon checkout.                                              | PG = UPI <br> ibibo_code = INTENT                | Supported on all flows and device types.                            |
+| **UPI TPV Collect**               | Requires VPA as well as beneficiary account number in the payment API call.                                 | PG = UPI <br> ibibo_code = UPITPV                | Supported on all flows and device types.                            |
+| **UPI TPV Generic Intent**        | No VPA required; requires beneficiary account number in the payment API call.                               | PG = UPI <br> ibibo_code = INTTPV                | Supported on all flows and devices except iOS.                     |
+| **UPI TPV Specific Intent**       | No VPA required; requires beneficiary account number in the payment API call.                               | PG = UPI <br> ibibo_code = INTTPV                | Supported on all flows and device types.                            |
+| **UPI Collect Autopay**           | Requires VPA as input along with SI details in the payment API call.                                        | PG = UPI <br> ibibo_code = UPI                   | Supported on all flows and device types.                            |
+| **UPI Generic Intent Autopay**    | No VPA required; requires SI details in the payment API call.                                              | PG = UPI <br> ibibo_code = INTENT                | Supported on all flows and devices except iOS.                     |
+| **UPI Specific Intent Autopay**   | No VPA required; requires SI details in the payment API call.                                              | PG = UPI <br> ibibo_code = INTENT                | Supported on all flows and device types.                            |
+| **TEZ UPI**                       | Direct Gpay flow; allows user to enter UPI ID after selecting the option on the payment page.                | PG = UPI <br> ibibo_code = TEZUPI                | Supported on all flows and device types.                            |
+| **TEZ OMNI**                      | Direct Gpay flow; allows user to enter phone number instead of UPI ID on the payment page.                   | PG = UPI <br> ibibo_code = TEZOMNI               | Supported on all flows and device types.                            |
+
+## Summary
+This table serves as a quick reference for understanding the different UPI payment methods available, including their specific requirements and compatibility with various devices. Each type has distinct functionalities suited for different payment scenarios.
+2024-11-21T21:20:03.051Z [INFO]: Successfully created Confluence page: UPI flow 123
+2024-11-21T21:20:03.052Z [INFO]: Successfully created Confluence page: UPI flow 123
+2024-11-21T21:21:19.865Z [INFO]: Received request to fetch Confluence page with ID: 1821409688
+2024-11-21T21:21:19.866Z [INFO]: Fetching Confluence page with ID: 1821409688
+2024-11-21T21:21:20.644Z [INFO]: Successfully fetched Confluence page: 1821409688
+2024-11-21T21:21:20.645Z [INFO]: Successfully handled request for page ID: 1821409688
+2024-11-21T21:22:34.396Z [INFO]: Server is running on port 3000
+2024-11-21T21:22:37.932Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: SDK flow 123
+2024-11-21T21:22:37.933Z [INFO]: Generating text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:22:43.922Z [INFO]: Successfully generated text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:22:43.924Z [INFO]: ChatGPT output generated successfully for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:22:43.926Z [INFO]: gpt output: ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayU SDK for NodeJS</title>
+</head>
+<body>
+
+    <h1>PayU SDK for NodeJS</h1>
+    <p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration, and with a few lines of code and a function call, it can be done within a few minutes.</p>
+
+    <h2>Features Supported</h2>
+    <p>The following features are supported in the NodeJS SDK:</p>
+    <ul>
+        <li>Create a Payment form.</li>
+        <li>Verify the transaction or check the transaction status.</li>
+        <li>Initiate/cancel refunds and check the status of a refund.</li>
+        <li>Retrieve settlement details that the bank has to settle you.</li>
+        <li>Get information on eligible payment options and PG/BANK downtime details.</li>
+        <li>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</li>
+        <li>Create/Expire invoice link through the function.</li>
+    </ul>
+
+    <h2>Requirements</h2>
+    <ul>
+        <li>NodeJS version ≥ 14.17</li>
+    </ul>
+
+</body>
+</html>
+```
+2024-11-21T21:22:43.930Z [INFO]: Creating Confluence page in space: TestSpace, title: SDK flow 123, body: ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayU SDK for NodeJS</title>
+</head>
+<body>
+
+    <h1>PayU SDK for NodeJS</h1>
+    <p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration, and with a few lines of code and a function call, it can be done within a few minutes.</p>
+
+    <h2>Features Supported</h2>
+    <p>The following features are supported in the NodeJS SDK:</p>
+    <ul>
+        <li>Create a Payment form.</li>
+        <li>Verify the transaction or check the transaction status.</li>
+        <li>Initiate/cancel refunds and check the status of a refund.</li>
+        <li>Retrieve settlement details that the bank has to settle you.</li>
+        <li>Get information on eligible payment options and PG/BANK downtime details.</li>
+        <li>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</li>
+        <li>Create/Expire invoice link through the function.</li>
+    </ul>
+
+    <h2>Requirements</h2>
+    <ul>
+        <li>NodeJS version ≥ 14.17</li>
+    </ul>
+
+</body>
+</html>
+```
+2024-11-21T21:22:45.151Z [INFO]: Successfully created Confluence page: SDK flow 123
+2024-11-21T21:22:45.152Z [INFO]: Successfully created Confluence page: SDK flow 123
+2024-11-21T21:25:15.392Z [INFO]: Server is running on port 3000
+2024-11-21T21:25:21.969Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: SDK flow 1234
+2024-11-21T21:25:21.970Z [INFO]: Generating text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:25:28.834Z [INFO]: Successfully generated text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:25:28.836Z [INFO]: ChatGPT output generated successfully for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:25:28.837Z [INFO]: gpt output: # PayU NodeJS SDK Documentation
+
+## Overview
+The PayU SDK for NodeJS facilitates seamless integration with PayU APIs, allowing developers to focus on application logic rather than the intricacies of API management. By utilizing this SDK, developers can implement payment functionalities in their applications with minimal code.
+
+## Features Supported
+The NodeJS PayU SDK offers a robust set of features including:
+
+- **Payment Form Creation**: Easily create a payment form with straightforward API calls.
+- **Transaction Verification**: Verify transaction status or details with a single function call.
+- **Refund Management**: Initiate or cancel refunds and monitor their statuses seamlessly.
+- **Settlement Details Retrieval**: Access information on settlements due from banks.
+- **Payment Options Information**: Query available payment options and stay updated with PG/BANK downtime.
+- **EMI Eligibility Check**: Determine customer eligibility for EMI plans and calculate interest amounts.
+- **Invoice Management**: Create or expire invoice links programmatically.
+
+## Technical Specifications
+- **SDK Version**: [Specify the current version of the SDK]
+- **Language**: JavaScript (NodeJS)
+- **Compatibility**: NodeJS version > 14.17
+- **Installations**: [Provide details on how to install the SDK, e.g., npm install command]
+- **Dependencies**: [List any dependencies required by the SDK]
+- **Configuration**: 
+   - API Key: [Specify how to configure the API key]
+   - Callback URLs: [Details on where to set up callback URLs for transaction responses]
+- **Usage Example**: 
+```javascript
+const payu = require('payu-sdk'); // Example import command
+
+// Example of creating a payment form
+payu.createPaymentForm({
+  amount: 1000, // amount in smallest currency unit
+  currency: 'INR', // currency code
+  // further parameters...
+});
+```
+- **Error Handling**: [Outline standard practices for error handling when using the SDK]
+- **Support and Documentation**: [Provide links to more detailed documentation or support channels]
+
+## Conclusion
+Incorporating PayU's NodeJS SDK simplifies the payment integration process for developers, allowing for a seamless experience both for developers implementing the SDK and end-users processing transactions. For detailed implementations, refer to the complete SDK documentation.
+2024-11-21T21:25:28.842Z [INFO]: Creating Confluence page in space: TestSpace, title: SDK flow 1234, body: # PayU NodeJS SDK Documentation
+
+## Overview
+The PayU SDK for NodeJS facilitates seamless integration with PayU APIs, allowing developers to focus on application logic rather than the intricacies of API management. By utilizing this SDK, developers can implement payment functionalities in their applications with minimal code.
+
+## Features Supported
+The NodeJS PayU SDK offers a robust set of features including:
+
+- **Payment Form Creation**: Easily create a payment form with straightforward API calls.
+- **Transaction Verification**: Verify transaction status or details with a single function call.
+- **Refund Management**: Initiate or cancel refunds and monitor their statuses seamlessly.
+- **Settlement Details Retrieval**: Access information on settlements due from banks.
+- **Payment Options Information**: Query available payment options and stay updated with PG/BANK downtime.
+- **EMI Eligibility Check**: Determine customer eligibility for EMI plans and calculate interest amounts.
+- **Invoice Management**: Create or expire invoice links programmatically.
+
+## Technical Specifications
+- **SDK Version**: [Specify the current version of the SDK]
+- **Language**: JavaScript (NodeJS)
+- **Compatibility**: NodeJS version > 14.17
+- **Installations**: [Provide details on how to install the SDK, e.g., npm install command]
+- **Dependencies**: [List any dependencies required by the SDK]
+- **Configuration**: 
+   - API Key: [Specify how to configure the API key]
+   - Callback URLs: [Details on where to set up callback URLs for transaction responses]
+- **Usage Example**: 
+```javascript
+const payu = require('payu-sdk'); // Example import command
+
+// Example of creating a payment form
+payu.createPaymentForm({
+  amount: 1000, // amount in smallest currency unit
+  currency: 'INR', // currency code
+  // further parameters...
+});
+```
+- **Error Handling**: [Outline standard practices for error handling when using the SDK]
+- **Support and Documentation**: [Provide links to more detailed documentation or support channels]
+
+## Conclusion
+Incorporating PayU's NodeJS SDK simplifies the payment integration process for developers, allowing for a seamless experience both for developers implementing the SDK and end-users processing transactions. For detailed implementations, refer to the complete SDK documentation.
+2024-11-21T21:25:29.988Z [INFO]: Successfully created Confluence page: SDK flow 1234
+2024-11-21T21:25:29.989Z [INFO]: Successfully created Confluence page: SDK flow 1234
+2024-11-21T21:26:48.169Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: SDK flow 5
+2024-11-21T21:26:48.170Z [INFO]: Generating text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:26:53.616Z [INFO]: Successfully generated text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:26:53.617Z [INFO]: ChatGPT output generated successfully for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:26:53.618Z [INFO]: gpt output: # PayU SDK for NodeJS
+
+The PayU SDK for NodeJS simplifies the integration of PayU's APIs into your applications, allowing developers to focus on the higher-level functionalities without delving into the complexities of API integration. With a minimal amount of code, you can implement essential payment features in just a few minutes.
+
+## Supported Features
+
+The PayU NodeJS SDK comes with a variety of supported features to enhance your payment processing capabilities:
+
+- **Create a Payment Form**: Easily construct payment forms for seamless transactions.
+- **Transaction Verification**: Verify transactions and check their status effortlessly.
+- **Refund Management**: Initiate or cancel refunds, and monitor their status.
+- **Settlement Details**: Retrieve the details for settlements from the bank.
+- **Payment Options**: Access information on eligible payment options and receive updates on payment gateway/bank downtime.
+- **EMI Eligibility Checks**: Verify customer eligibility for EMI (Equated Monthly Installments) and calculate amounts based on interest rates.
+- **Invoice Link Management**: Create or expire invoice links through provided functions.
+
+## Technical Specifications
+
+- **Platform**: Node.js
+- **Node.js Requirement**: Version greater than 14.17
+- **Integration Method**: Simple function calls to utilize various features.
+- **Repository Information**: (To be filled with the SDK repository link if available.)
+- **Documentation**: (To be filled with the link to the comprehensive documentation for more in-depth guidance.)
+
+Feel free to reach out for any questions or further assistance regarding the PayU SDK for NodeJS.
+2024-11-21T21:26:53.621Z [INFO]: Creating Confluence page in space: TestSpace, title: SDK flow 5, body: # PayU SDK for NodeJS
+
+The PayU SDK for NodeJS simplifies the integration of PayU's APIs into your applications, allowing developers to focus on the higher-level functionalities without delving into the complexities of API integration. With a minimal amount of code, you can implement essential payment features in just a few minutes.
+
+## Supported Features
+
+The PayU NodeJS SDK comes with a variety of supported features to enhance your payment processing capabilities:
+
+- **Create a Payment Form**: Easily construct payment forms for seamless transactions.
+- **Transaction Verification**: Verify transactions and check their status effortlessly.
+- **Refund Management**: Initiate or cancel refunds, and monitor their status.
+- **Settlement Details**: Retrieve the details for settlements from the bank.
+- **Payment Options**: Access information on eligible payment options and receive updates on payment gateway/bank downtime.
+- **EMI Eligibility Checks**: Verify customer eligibility for EMI (Equated Monthly Installments) and calculate amounts based on interest rates.
+- **Invoice Link Management**: Create or expire invoice links through provided functions.
+
+## Technical Specifications
+
+- **Platform**: Node.js
+- **Node.js Requirement**: Version greater than 14.17
+- **Integration Method**: Simple function calls to utilize various features.
+- **Repository Information**: (To be filled with the SDK repository link if available.)
+- **Documentation**: (To be filled with the link to the comprehensive documentation for more in-depth guidance.)
+
+Feel free to reach out for any questions or further assistance regarding the PayU SDK for NodeJS.
+2024-11-21T21:26:54.833Z [INFO]: Successfully created Confluence page: SDK flow 5
+2024-11-21T21:26:54.834Z [INFO]: Successfully created Confluence page: SDK flow 5
+2024-11-21T21:34:28.677Z [INFO]: Server is running on port 3000
+2024-11-21T21:34:32.211Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: SDK flow 5
+2024-11-21T21:34:32.213Z [INFO]: Generating text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:34:37.532Z [INFO]: Successfully generated text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:34:37.534Z [INFO]: ChatGPT output generated successfully for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:34:37.535Z [INFO]: Creating Confluence page in space: TestSpace, title: SDK flow 5, body: ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayU SDK for NodeJS Documentation</title>
+</head>
+<body>
+    <h1>PayU SDK for NodeJS Documentation</h1>
+
+    <p>The PayU SDK for NodeJS facilitates seamless integration with PayU APIs, allowing developers to focus on higher-level functionality rather than the complexities of low-level API details. By incorporating this SDK, developers can implement payment processes with minimal code and execute function calls in just minutes.</p>
+    
+    <h2>Supported Features</h2>
+    <p>The NodeJS SDK includes a variety of features designed to enhance the payment integration experience:</p>
+    <ul>
+        <li>Create a payment form.</li>
+        <li>Verify transactions and check their status.</li>
+        <li>Initiate or cancel refunds, along with tracking refund status.</li>
+        <li>Retrieve settlement details provided by banks.</li>
+        <li>Access information regarding eligible payment options and payment gateway/bank downtimes.</li>
+        <li>Check customer eligibility for EMI and calculate amounts based on EMI interest rates.</li>
+        <li>Create and expire invoice links efficiently.</li>
+    </ul>
+
+    <h2>Technical Requirements</h2>
+    <ul>
+        <li>NodeJS version: &gt; 14.17</li>
+    </ul>
+
+</body>
+</html>
+```
+2024-11-21T21:34:38.462Z [ERROR]: Error creating Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: A page with this title already exists: A page already exists with the same TITLE in this space
+2024-11-21T21:34:38.463Z [ERROR]: Failed to create Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: A page with this title already exists: A page already exists with the same TITLE in this space
+2024-11-21T21:34:39.174Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: SDK flow 6
+2024-11-21T21:34:39.176Z [INFO]: Generating text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:34:46.234Z [INFO]: Successfully generated text with ChatGPT for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:34:46.235Z [INFO]: ChatGPT output generated successfully for prompt: "<p>The PayU SDK for NodeJS enables you to easily work with the APIs of PayU by integrating this SDK within your base system. With our SDK, you do not need to worry about low-level details for API integration and with a few lines of code and a function call, it can be done within a few minutes.</p><h2>Features Supported</h2><p>The following features are supported in the NodeJS SDK:</p><ul><li><p>Create a Payment form.</p></li><li><p>Verify the transaction or check the transaction status.</p></li><li><p>Initiate/cancel refunds and check the status of a refund.</p></li><li><p>Retrieve settlement details that the bank has to settle you.</p></li><li><p>Get information on eligible payment options and PG/BANK downtime details.</p></li><li><p>Check the customer&rsquo;s eligibility for EMI and get the amount according to the EMI interest.</p></li><li><p>Create/Expire invoice link through the function.</p></li></ul><h2>Requirements</h2><ul><li><p>NodeJS version &gt; 14.17</p></li></ul><p />"
+2024-11-21T21:34:46.236Z [INFO]: Creating Confluence page in space: TestSpace, title: SDK flow 6, body: ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayU SDK for NodeJS</title>
+</head>
+<body>
+    <h1>PayU SDK for NodeJS</h1>
+    <p>The PayU SDK for NodeJS simplifies integration with PayU's APIs, allowing developers to implement payment functionalities with minimal effort. With just a few lines of code, you can quickly set up payment processing and management within your application.</p>
+    
+    <h2>Supported Features</h2>
+    <p>The following features are available in the NodeJS SDK:</p>
+    <ul>
+        <li>Create a Payment form.</li>
+        <li>Verify transactions or check transaction status.</li>
+        <li>Initiate and cancel refunds, and check refund status.</li>
+        <li>Retrieve bank settlement details.</li>
+        <li>Access eligible payment options and PG/BANK downtime details.</li>
+        <li>Check customer eligibility for EMI and determine amounts based on EMI interest.</li>
+        <li>Create or expire an invoice link via function calls.</li>
+    </ul>
+
+    <h2>Requirements</h2>
+    <ul>
+        <li>NodeJS version &gt; 14.17</li>
+    </ul>
+
+    <h2>Technical Specifications</h2>
+    <ul>
+        <li><strong>Programming Language:</strong> JavaScript</li>
+        <li><strong>Environment:</strong> Node.js</li>
+        <li><strong>Compatibility:</strong> Works with NodeJS versions later than 14.17</li>
+        <li><strong>Library Integration:</strong> Easy to integrate with existing applications using npm package manager</li>
+        <li><strong>Documentation:</strong> Comprehensive documentation available for setup and usage</li>
+        <li><strong>Support:</strong> Community support and updates available for bug fixes and feature enhancements</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>With the PayU SDK for NodeJS, developers can rapidly implement payment functionalities, reducing time and effort in dealing with API complexities. The SDK offers a robust set of features that cater to various payment processing needs.</p>
+</body>
+</html>
+```
+2024-11-21T21:34:47.146Z [INFO]: Successfully created Confluence page: SDK flow 6
+2024-11-21T21:34:47.146Z [INFO]: Successfully created Confluence page: SDK flow 6
+2024-11-21T21:37:12.175Z [INFO]: Received request to fetch Confluence page with ID: 1821409688
+2024-11-21T21:37:12.176Z [INFO]: Fetching Confluence page with ID: 1821409688
+2024-11-21T21:37:12.963Z [INFO]: Successfully fetched Confluence page: 1821409688
+2024-11-21T21:37:12.964Z [INFO]: Successfully handled request for page ID: 1821409688
+2024-11-21T22:39:09.974Z [INFO]: Server is running on port 3000
+2024-11-21T22:40:52.941Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: tech doc
+2024-11-21T22:40:52.943Z [INFO]: Generating text with ChatGPT for prompt: "undefined"
+2024-11-21T22:40:56.801Z [INFO]: Successfully generated text with ChatGPT for prompt: "undefined"
+2024-11-21T22:40:56.802Z [INFO]: ChatGPT output generated successfully for prompt: "undefined"
+2024-11-21T22:40:56.802Z [INFO]: Creating Confluence page in space: TestSpace, title: tech doc, body: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confluence Page</title>
+</head>
+<body>
+    <h1>Confluence Page Summary</h1>
+    <h2>Summary of User Input</h2>
+    <p>No content provided for summarization.</p>
+    
+    <h2>Technical Specifications</h2>
+    <ul>
+        <li><strong>Content Availability:</strong> None</li>
+        <li><strong>Last Update:</strong> October 2023</li>
+    </ul>
+</body>
+</html>
+2024-11-21T22:40:57.668Z [ERROR]: Error creating Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: A page with this title already exists: A page already exists with the same TITLE in this space
+2024-11-21T22:40:57.669Z [ERROR]: Failed to create Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: A page with this title already exists: A page already exists with the same TITLE in this space
+2024-11-21T22:41:01.406Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: tech doc dd
+2024-11-21T22:41:01.406Z [INFO]: Generating text with ChatGPT for prompt: "undefined"
+2024-11-21T22:41:03.811Z [INFO]: Successfully generated text with ChatGPT for prompt: "undefined"
+2024-11-21T22:41:03.812Z [INFO]: ChatGPT output generated successfully for prompt: "undefined"
+2024-11-21T22:41:03.813Z [INFO]: Creating Confluence page in space: TestSpace, title: tech doc dd, body: ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confluence Page Summary</title>
+</head>
+<body>
+    <h1>Confluence Page Summary</h1>
+    <p>No user input provided. Please provide the content to summarize and create detailed technical specifications.</p>
+</body>
+</html>
+```
+2024-11-21T22:41:04.590Z [INFO]: Successfully created Confluence page: tech doc dd
+2024-11-21T22:41:04.591Z [INFO]: Successfully created Confluence page: tech doc dd
+2024-11-21T22:46:56.444Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: tech doc dd
+2024-11-21T22:46:56.445Z [INFO]: Generating text with ChatGPT for prompt: "Write a confluence page for below code: const { chromium } = require("playwright");
+require("dotenv").config();
+
+const pg = require("./paymentGateway/index");
+
+function getPaymentUrl(payload) {
+  let baseUrl = http://localhost:${process.env.PORT}/payment/initiate?;
+  for (let key in payload) {
+    baseUrl += ${key}=${payload[key]}&;
+  }
+  // console.log(baseUrl)
+  return baseUrl;
+}
+
+async function startTest({url,mode, flow, bankcode, payload, response} ) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  await page.goto(url);
+  await page.route("**/*", (route) => {
+    return route.request().resourceType() === "image" ||
+      route.request().resourceType() === "stylesheet"
+      ? route.abort()
+      : route.continue();
+  });
+ 
+  let res = await pg({page, mode, context, flow, bankcode, payload, response});
+  await context.close();
+  await browser.close();
+  return res.getResult();
+}
+
+module.exports = async (testData, mode) => {
+  let report = {
+    paymentMode: mode,
+    timeTaken: 0,
+    testPassed: 0,
+    totalTests: 0,
+    averageTimePerTest: 0,
+  };
+
+  async function initTest({payload, response, mode, flow, bankcode}) {
+    const url = getPaymentUrl(payload);
+    const result = await startTest({url, mode, flow, bankcode, payload, response});
+    initializeNestedStructure(flow, mode, bankcode);
+    report[flow][bankcode].push(result);
+    updateMetrics(result);
+  }
+
+  function initializeNestedStructure(flow, mode, bankcode) {
+    report[flow] = report[flow] || {};
+    report[flow][bankcode] = report[flow][bankcode] || [];
+  }
+
+  function updateMetrics(result) {
+    report.timeTaken += result.timeTaken;
+    if (result.status) report.testPassed++;
+    report.totalTests++;
+  }
+
+  let concurrency = 10;
+  let tests = [];
+  for (let flow in testData) {
+    for (let data of testData[flow]) {
+      // // console.log([data.payload,data.response, mode, flow, data.bankcode])
+      tests.push(
+        initTest({payload: data.payload,resposne: data.response, mode: mode, flow:flow, bankcode: data.testName})
+      );
+      if (tests.length == concurrency) {
+        await Promise.all(tests);
+        tests = [];
+      }
+    }
+  }
+  await Promise.all(tests);
+  // Add average time taken by the all the tests to the final report
+  if (report.totalTests > 0) {
+    report.averageTimePerTest = report.timeTaken / report.totalTests;
+  }
+  return report;
+}"
+2024-11-21T22:47:08.755Z [INFO]: Successfully generated text with ChatGPT for prompt: "Write a confluence page for below code: const { chromium } = require("playwright");
+require("dotenv").config();
+
+const pg = require("./paymentGateway/index");
+
+function getPaymentUrl(payload) {
+  let baseUrl = http://localhost:${process.env.PORT}/payment/initiate?;
+  for (let key in payload) {
+    baseUrl += ${key}=${payload[key]}&;
+  }
+  // console.log(baseUrl)
+  return baseUrl;
+}
+
+async function startTest({url,mode, flow, bankcode, payload, response} ) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  await page.goto(url);
+  await page.route("**/*", (route) => {
+    return route.request().resourceType() === "image" ||
+      route.request().resourceType() === "stylesheet"
+      ? route.abort()
+      : route.continue();
+  });
+ 
+  let res = await pg({page, mode, context, flow, bankcode, payload, response});
+  await context.close();
+  await browser.close();
+  return res.getResult();
+}
+
+module.exports = async (testData, mode) => {
+  let report = {
+    paymentMode: mode,
+    timeTaken: 0,
+    testPassed: 0,
+    totalTests: 0,
+    averageTimePerTest: 0,
+  };
+
+  async function initTest({payload, response, mode, flow, bankcode}) {
+    const url = getPaymentUrl(payload);
+    const result = await startTest({url, mode, flow, bankcode, payload, response});
+    initializeNestedStructure(flow, mode, bankcode);
+    report[flow][bankcode].push(result);
+    updateMetrics(result);
+  }
+
+  function initializeNestedStructure(flow, mode, bankcode) {
+    report[flow] = report[flow] || {};
+    report[flow][bankcode] = report[flow][bankcode] || [];
+  }
+
+  function updateMetrics(result) {
+    report.timeTaken += result.timeTaken;
+    if (result.status) report.testPassed++;
+    report.totalTests++;
+  }
+
+  let concurrency = 10;
+  let tests = [];
+  for (let flow in testData) {
+    for (let data of testData[flow]) {
+      // // console.log([data.payload,data.response, mode, flow, data.bankcode])
+      tests.push(
+        initTest({payload: data.payload,resposne: data.response, mode: mode, flow:flow, bankcode: data.testName})
+      );
+      if (tests.length == concurrency) {
+        await Promise.all(tests);
+        tests = [];
+      }
+    }
+  }
+  await Promise.all(tests);
+  // Add average time taken by the all the tests to the final report
+  if (report.totalTests > 0) {
+    report.averageTimePerTest = report.timeTaken / report.totalTests;
+  }
+  return report;
+}"
+2024-11-21T22:47:08.762Z [INFO]: ChatGPT output generated successfully for prompt: "Write a confluence page for below code: const { chromium } = require("playwright");
+require("dotenv").config();
+
+const pg = require("./paymentGateway/index");
+
+function getPaymentUrl(payload) {
+  let baseUrl = http://localhost:${process.env.PORT}/payment/initiate?;
+  for (let key in payload) {
+    baseUrl += ${key}=${payload[key]}&;
+  }
+  // console.log(baseUrl)
+  return baseUrl;
+}
+
+async function startTest({url,mode, flow, bankcode, payload, response} ) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  await page.goto(url);
+  await page.route("**/*", (route) => {
+    return route.request().resourceType() === "image" ||
+      route.request().resourceType() === "stylesheet"
+      ? route.abort()
+      : route.continue();
+  });
+ 
+  let res = await pg({page, mode, context, flow, bankcode, payload, response});
+  await context.close();
+  await browser.close();
+  return res.getResult();
+}
+
+module.exports = async (testData, mode) => {
+  let report = {
+    paymentMode: mode,
+    timeTaken: 0,
+    testPassed: 0,
+    totalTests: 0,
+    averageTimePerTest: 0,
+  };
+
+  async function initTest({payload, response, mode, flow, bankcode}) {
+    const url = getPaymentUrl(payload);
+    const result = await startTest({url, mode, flow, bankcode, payload, response});
+    initializeNestedStructure(flow, mode, bankcode);
+    report[flow][bankcode].push(result);
+    updateMetrics(result);
+  }
+
+  function initializeNestedStructure(flow, mode, bankcode) {
+    report[flow] = report[flow] || {};
+    report[flow][bankcode] = report[flow][bankcode] || [];
+  }
+
+  function updateMetrics(result) {
+    report.timeTaken += result.timeTaken;
+    if (result.status) report.testPassed++;
+    report.totalTests++;
+  }
+
+  let concurrency = 10;
+  let tests = [];
+  for (let flow in testData) {
+    for (let data of testData[flow]) {
+      // // console.log([data.payload,data.response, mode, flow, data.bankcode])
+      tests.push(
+        initTest({payload: data.payload,resposne: data.response, mode: mode, flow:flow, bankcode: data.testName})
+      );
+      if (tests.length == concurrency) {
+        await Promise.all(tests);
+        tests = [];
+      }
+    }
+  }
+  await Promise.all(tests);
+  // Add average time taken by the all the tests to the final report
+  if (report.totalTests > 0) {
+    report.averageTimePerTest = report.timeTaken / report.totalTests;
+  }
+  return report;
+}"
+2024-11-21T22:47:08.769Z [INFO]: Creating Confluence page in space: TestSpace, title: tech doc dd, body: ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playwright Payment Testing Code Overview</title>
+</head>
+<body>
+    <h1>Playwright Payment Testing Code Overview</h1>
+
+    <h2>Introduction</h2>
+    <p>This document provides an overview of the Playwright test automation code used for initiating and testing payment flows with various configurations. The code leverages Playwright's capabilities to simulate user interactions with a payment system, measure the performance of different payment modes, and generate a structured report containing test results.</p>
+
+    <h2>Code Summary</h2>
+    <p>The provided code is an automation script that:</p>
+    <ul>
+        <li>Creates a base URL for initiating payments</li>
+        <li>Launches a headless Chromium browser to simulate interaction</li>
+        <li>Routes and filters requests while the page is loaded</li>
+        <li>Executes tests in parallel to evaluate multiple payment scenarios</li>
+        <li>Collects metrics for analysis after tests are completed</li>
+    </ul>
+
+    <h2>Technical Specifications</h2>
+    <h3>Key Components</h3>
+    <ul>
+        <li><strong>Playwright:</strong> A framework to automate browser tasks, facilitating quick test execution.</li>
+        <li><strong>dotenv:</strong> A module to manage environment variables securely.</li>
+        <li><strong>Payment Gateway Module:</strong> Custom module located in <code>./paymentGateway/index</code> to handle payment operations.</li>
+    </ul>
+
+    <h3>Main Functions</h3>
+    <ul>
+        <li><strong>getPaymentUrl(payload):</strong>
+            <ul>
+                <li>Generates a URL for payment initiation based on provided payload.</li>
+                <li>Builds a query string from payload properties.</li>
+            </ul>
+        </li>
+        <li><strong>startTest(params):</strong>
+            <ul>
+                <li>Launches Chromium in headless mode and initializes page context.</li>
+                <li>Handles network requests to optimize loading (e.g., aborts images and stylesheets).</li>
+                <li>Invokes a payment gateway for processing.</li>
+            </ul>
+        </li>
+        <li><strong>initTest(params):</strong>
+            <ul>
+                <li>Initiates the test by calling <code>startTest</code> with config settings for payment.</li>
+                <li>Records results in a structured report format.</li>
+            </ul>
+        </li>
+        <li><strong>updateMetrics(result):</strong>
+            <ul>
+                <li>Updates the test report's metrics (e.g., total tests, passed tests, and time statistics).</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Configuration</h3>
+    <p>To run this script, ensure the following:</p>
+    <ul>
+        <li><strong>Node.js:</strong> Latest version installed.</li>
+        <li><strong>Playwright:</strong> Install via npm with <code>npm install playwright</code>.</li>
+        <li><strong>Dotenv:</strong> Install via npm with <code>npm install dotenv</code>.</li>
+        <li><strong>Configuration:</strong> Set environment variables in a <code>.env</code> file, including <code>PORT</code>.</li>
+    </ul>
+
+    <h3>Results Reporting</h3>
+    <p>The final report generated includes the following metrics:</p>
+    <ul>
+        <li><strong>paymentMode:</strong> Payment mode used in tests.</li>
+        <li><strong>timeTaken:</strong> Total time taken for all tests.</li>
+        <li><strong>testPassed:</strong> Number of tests that passed.</li>
+        <li><strong>totalTests:</strong> Total number of tests executed.</li>
+        <li><strong>averageTimePerTest:</strong> Average execution time for each test.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>This Playwright test script provides a robust framework for automating payment testing across different configurations. By capturing important metrics and enabling concurrency in execution, it enhances the efficiency and effectiveness of testing payment flows.</p>
+</body>
+</html>
+```
+2024-11-21T22:47:09.473Z [ERROR]: Error creating Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: A page with this title already exists: A page already exists with the same TITLE in this space
+2024-11-21T22:47:09.474Z [ERROR]: Failed to create Confluence page: Failed to create page: com.atlassian.confluence.api.service.exceptions.BadRequestException: A page with this title already exists: A page already exists with the same TITLE in this space
+2024-11-21T22:47:14.726Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: tech doc ddd
+2024-11-21T22:47:14.726Z [INFO]: Generating text with ChatGPT for prompt: "Write a confluence page for below code: const { chromium } = require("playwright");
+require("dotenv").config();
+
+const pg = require("./paymentGateway/index");
+
+function getPaymentUrl(payload) {
+  let baseUrl = http://localhost:${process.env.PORT}/payment/initiate?;
+  for (let key in payload) {
+    baseUrl += ${key}=${payload[key]}&;
+  }
+  // console.log(baseUrl)
+  return baseUrl;
+}
+
+async function startTest({url,mode, flow, bankcode, payload, response} ) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  await page.goto(url);
+  await page.route("**/*", (route) => {
+    return route.request().resourceType() === "image" ||
+      route.request().resourceType() === "stylesheet"
+      ? route.abort()
+      : route.continue();
+  });
+ 
+  let res = await pg({page, mode, context, flow, bankcode, payload, response});
+  await context.close();
+  await browser.close();
+  return res.getResult();
+}
+
+module.exports = async (testData, mode) => {
+  let report = {
+    paymentMode: mode,
+    timeTaken: 0,
+    testPassed: 0,
+    totalTests: 0,
+    averageTimePerTest: 0,
+  };
+
+  async function initTest({payload, response, mode, flow, bankcode}) {
+    const url = getPaymentUrl(payload);
+    const result = await startTest({url, mode, flow, bankcode, payload, response});
+    initializeNestedStructure(flow, mode, bankcode);
+    report[flow][bankcode].push(result);
+    updateMetrics(result);
+  }
+
+  function initializeNestedStructure(flow, mode, bankcode) {
+    report[flow] = report[flow] || {};
+    report[flow][bankcode] = report[flow][bankcode] || [];
+  }
+
+  function updateMetrics(result) {
+    report.timeTaken += result.timeTaken;
+    if (result.status) report.testPassed++;
+    report.totalTests++;
+  }
+
+  let concurrency = 10;
+  let tests = [];
+  for (let flow in testData) {
+    for (let data of testData[flow]) {
+      // // console.log([data.payload,data.response, mode, flow, data.bankcode])
+      tests.push(
+        initTest({payload: data.payload,resposne: data.response, mode: mode, flow:flow, bankcode: data.testName})
+      );
+      if (tests.length == concurrency) {
+        await Promise.all(tests);
+        tests = [];
+      }
+    }
+  }
+  await Promise.all(tests);
+  // Add average time taken by the all the tests to the final report
+  if (report.totalTests > 0) {
+    report.averageTimePerTest = report.timeTaken / report.totalTests;
+  }
+  return report;
+}"
+2024-11-21T22:47:27.999Z [INFO]: Successfully generated text with ChatGPT for prompt: "Write a confluence page for below code: const { chromium } = require("playwright");
+require("dotenv").config();
+
+const pg = require("./paymentGateway/index");
+
+function getPaymentUrl(payload) {
+  let baseUrl = http://localhost:${process.env.PORT}/payment/initiate?;
+  for (let key in payload) {
+    baseUrl += ${key}=${payload[key]}&;
+  }
+  // console.log(baseUrl)
+  return baseUrl;
+}
+
+async function startTest({url,mode, flow, bankcode, payload, response} ) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  await page.goto(url);
+  await page.route("**/*", (route) => {
+    return route.request().resourceType() === "image" ||
+      route.request().resourceType() === "stylesheet"
+      ? route.abort()
+      : route.continue();
+  });
+ 
+  let res = await pg({page, mode, context, flow, bankcode, payload, response});
+  await context.close();
+  await browser.close();
+  return res.getResult();
+}
+
+module.exports = async (testData, mode) => {
+  let report = {
+    paymentMode: mode,
+    timeTaken: 0,
+    testPassed: 0,
+    totalTests: 0,
+    averageTimePerTest: 0,
+  };
+
+  async function initTest({payload, response, mode, flow, bankcode}) {
+    const url = getPaymentUrl(payload);
+    const result = await startTest({url, mode, flow, bankcode, payload, response});
+    initializeNestedStructure(flow, mode, bankcode);
+    report[flow][bankcode].push(result);
+    updateMetrics(result);
+  }
+
+  function initializeNestedStructure(flow, mode, bankcode) {
+    report[flow] = report[flow] || {};
+    report[flow][bankcode] = report[flow][bankcode] || [];
+  }
+
+  function updateMetrics(result) {
+    report.timeTaken += result.timeTaken;
+    if (result.status) report.testPassed++;
+    report.totalTests++;
+  }
+
+  let concurrency = 10;
+  let tests = [];
+  for (let flow in testData) {
+    for (let data of testData[flow]) {
+      // // console.log([data.payload,data.response, mode, flow, data.bankcode])
+      tests.push(
+        initTest({payload: data.payload,resposne: data.response, mode: mode, flow:flow, bankcode: data.testName})
+      );
+      if (tests.length == concurrency) {
+        await Promise.all(tests);
+        tests = [];
+      }
+    }
+  }
+  await Promise.all(tests);
+  // Add average time taken by the all the tests to the final report
+  if (report.totalTests > 0) {
+    report.averageTimePerTest = report.timeTaken / report.totalTests;
+  }
+  return report;
+}"
+2024-11-21T22:47:28.007Z [INFO]: ChatGPT output generated successfully for prompt: "Write a confluence page for below code: const { chromium } = require("playwright");
+require("dotenv").config();
+
+const pg = require("./paymentGateway/index");
+
+function getPaymentUrl(payload) {
+  let baseUrl = http://localhost:${process.env.PORT}/payment/initiate?;
+  for (let key in payload) {
+    baseUrl += ${key}=${payload[key]}&;
+  }
+  // console.log(baseUrl)
+  return baseUrl;
+}
+
+async function startTest({url,mode, flow, bankcode, payload, response} ) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  await page.goto(url);
+  await page.route("**/*", (route) => {
+    return route.request().resourceType() === "image" ||
+      route.request().resourceType() === "stylesheet"
+      ? route.abort()
+      : route.continue();
+  });
+ 
+  let res = await pg({page, mode, context, flow, bankcode, payload, response});
+  await context.close();
+  await browser.close();
+  return res.getResult();
+}
+
+module.exports = async (testData, mode) => {
+  let report = {
+    paymentMode: mode,
+    timeTaken: 0,
+    testPassed: 0,
+    totalTests: 0,
+    averageTimePerTest: 0,
+  };
+
+  async function initTest({payload, response, mode, flow, bankcode}) {
+    const url = getPaymentUrl(payload);
+    const result = await startTest({url, mode, flow, bankcode, payload, response});
+    initializeNestedStructure(flow, mode, bankcode);
+    report[flow][bankcode].push(result);
+    updateMetrics(result);
+  }
+
+  function initializeNestedStructure(flow, mode, bankcode) {
+    report[flow] = report[flow] || {};
+    report[flow][bankcode] = report[flow][bankcode] || [];
+  }
+
+  function updateMetrics(result) {
+    report.timeTaken += result.timeTaken;
+    if (result.status) report.testPassed++;
+    report.totalTests++;
+  }
+
+  let concurrency = 10;
+  let tests = [];
+  for (let flow in testData) {
+    for (let data of testData[flow]) {
+      // // console.log([data.payload,data.response, mode, flow, data.bankcode])
+      tests.push(
+        initTest({payload: data.payload,resposne: data.response, mode: mode, flow:flow, bankcode: data.testName})
+      );
+      if (tests.length == concurrency) {
+        await Promise.all(tests);
+        tests = [];
+      }
+    }
+  }
+  await Promise.all(tests);
+  // Add average time taken by the all the tests to the final report
+  if (report.totalTests > 0) {
+    report.averageTimePerTest = report.timeTaken / report.totalTests;
+  }
+  return report;
+}"
+2024-11-21T22:47:28.016Z [INFO]: Creating Confluence page in space: TestSpace, title: tech doc ddd, body: ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Payment Testing with Playwright</title>
+</head>
+<body>
+    <h1>Automated Payment Testing with Playwright</h1>
+    
+    <h2>Overview</h2>
+    <p>This document outlines a Node.js script utilizing the Playwright library for automated payment testing. The script constructs payment URLs, initializes tests concurrently, and generates a report on the test results.</p>
+
+    <h2>Code Structure</h2>
+    <pre><code>
+const { chromium } = require("playwright");
+require("dotenv").config();
+
+const pg = require("./paymentGateway/index");
+
+// Function to construct payment URL
+function getPaymentUrl(payload) {
+  let baseUrl = http://localhost:${process.env.PORT}/payment/initiate?;
+  for (let key in payload) {
+    baseUrl += ${key}=${payload[key]}&;
+  }
+  return baseUrl;
+}
+
+// Function to start the test
+async function startTest({url,mode, flow, bankcode, payload, response} ) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  
+  await page.goto(url);
+  
+  // Request routing to abort unnecessary resources
+  await page.route("**/*", (route) => {
+    return route.request().resourceType() === "image" ||
+      route.request().resourceType() === "stylesheet"
+      ? route.abort()
+      : route.continue();
+  });
+ 
+  let res = await pg({page, mode, context, flow, bankcode, payload, response});
+  await context.close();
+  await browser.close();
+  return res.getResult();
+}
+
+// Main export function
+module.exports = async (testData, mode) => {
+  let report = {
+    paymentMode: mode,
+    timeTaken: 0,
+    testPassed: 0,
+    totalTests: 0,
+    averageTimePerTest: 0,
+  };
+
+  async function initTest({payload, response, mode, flow, bankcode}) {
+    const url = getPaymentUrl(payload);
+    const result = await startTest({url, mode, flow, bankcode, payload, response});
+    initializeNestedStructure(flow, mode, bankcode);
+    report[flow][bankcode].push(result);
+    updateMetrics(result);
+  }
+
+  function initializeNestedStructure(flow, mode, bankcode) {
+    report[flow] = report[flow] || {};
+    report[flow][bankcode] = report[flow][bankcode] || [];
+  }
+
+  function updateMetrics(result) {
+    report.timeTaken += result.timeTaken;
+    if (result.status) report.testPassed++;
+    report.totalTests++;
+  }
+
+  let concurrency = 10;
+  let tests = [];
+  for (let flow in testData) {
+    for (let data of testData[flow]) {
+      tests.push(
+        initTest({payload: data.payload,resposne: data.response, mode: mode, flow:flow, bankcode: data.testName})
+      );
+      if (tests.length == concurrency) {
+        await Promise.all(tests);
+        tests = [];
+      }
+    }
+  }
+  await Promise.all(tests);
+  
+  // Calculating average time taken
+  if (report.totalTests > 0) {
+    report.averageTimePerTest = report.timeTaken / report.totalTests;
+  }
+  return report;
+}
+    </code></pre>
+
+    <h2>Technical Specifications</h2>
+    <ul>
+        <li><strong>Programming Language:</strong> JavaScript (Node.js)</li>
+        <li><strong>Libraries Used:</strong>
+            <ul>
+                <li><em>Playwright</em> - For browser automation and testing.</li>
+                <li><em>dotenv</em> - For managing environment variables.</li>
+            </ul>
+        </li>
+        <li><strong>Environment Configuration:</strong> The application uses environment variables, specifically the <strong>PORT</strong> for local server configuration.</li>
+        <li><strong>Concurrency:</strong> The tests are executed with a maximum concurrency of 10.</li>
+        <li><strong>Reporting:</strong> The script generates a report that includes:
+            <ul>
+                <li>Payment Mode</li>
+                <li>Total Time Taken</li>
+                <li>Tests Passed</li>
+                <li>Total Tests Executed</li>
+                <li>Average Time Per Test</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Notes</h2>
+    <ul>
+        <li>The script is designed to be run in a Node.js environment with the Playwright library installed.</li>
+        <li>Ensure local server is running for the payment gateway before executing tests.</li>
+        <li>Modify the <strong>testData</strong> parameter to include various test cases for different payment flows.</li>
+    </ul>
+</body>
+</html>
+```
+2024-11-21T22:47:28.930Z [INFO]: Successfully created Confluence page: tech doc ddd
+2024-11-21T22:47:28.930Z [INFO]: Successfully created Confluence page: tech doc ddd
+2024-11-21T22:50:39.616Z [INFO]: Received request to generate ChatGPT output and create Confluence page. Space: TestSpace, Title: tech doc dddd
+2024-11-21T22:50:39.617Z [INFO]: Generating text with ChatGPT for prompt: "const { chromium } = require("playwright");
+require("dotenv").config();
+
+const pg = require("./paymentGateway/index");
+
+function getPaymentUrl(payload) {
+  let baseUrl = http://localhost:${process.env.PORT}/payment/initiate?;
+  for (let key in payload) {
+    baseUrl += ${key}=${payload[key]}&;
+  }
+  // console.log(baseUrl)
+  return baseUrl;
+}
+
+async function startTest({url,mode, flow, bankcode, payload, response} ) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  await page.goto(url);
+  await page.route("**/*", (route) => {
+    return route.request().resourceType() === "image" ||
+      route.request().resourceType() === "stylesheet"
+      ? route.abort()
+      : route.continue();
+  });
+ 
+  let res = await pg({page, mode, context, flow, bankcode, payload, response});
+  await context.close();
+  await browser.close();
+  return res.getResult();
+}
+
+module.exports = async (testData, mode) => {
+  let report = {
+    paymentMode: mode,
+    timeTaken: 0,
+    testPassed: 0,
+    totalTests: 0,
+    averageTimePerTest: 0,
+  };
+
+  async function initTest({payload, response, mode, flow, bankcode}) {
+    const url = getPaymentUrl(payload);
+    const result = await startTest({url, mode, flow, bankcode, payload, response});
+    initializeNestedStructure(flow, mode, bankcode);
+    report[flow][bankcode].push(result);
+    updateMetrics(result);
+  }
+
+  function initializeNestedStructure(flow, mode, bankcode) {
+    report[flow] = report[flow] || {};
+    report[flow][bankcode] = report[flow][bankcode] || [];
+  }
+
+  function updateMetrics(result) {
+    report.timeTaken += result.timeTaken;
+    if (result.status) report.testPassed++;
+    report.totalTests++;
+  }
+
+  let concurrency = 10;
+  let tests = [];
+  for (let flow in testData) {
+    for (let data of testData[flow]) {
+      // // console.log([data.payload,data.response, mode, flow, data.bankcode])
+      tests.push(
+        initTest({payload: data.payload,resposne: data.response, mode: mode, flow:flow, bankcode: data.testName})
+      );
+      if (tests.length == concurrency) {
+        await Promise.all(tests);
+        tests = [];
+      }
+    }
+  }
+  await Promise.all(tests);
+  // Add average time taken by the all the tests to the final report
+  if (report.totalTests > 0) {
+    report.averageTimePerTest = report.timeTaken / report.totalTests;
+  }
+  return report;
+}"
