@@ -163,9 +163,10 @@
       }
 
       async function submitCodeToDoc() {
-        outputBox.textContent = `Conveting the code into interactive document...`;
+        
         const input = document.getElementById("codeToDocInput").value;
         const outputBox = document.getElementById("codeToDocOutput");
+        outputBox.textContent = `Conveting the code into interactive document...`;
 
         if (!input) {
           outputBox.textContent = "Please enter code to create interactive document!";
@@ -198,11 +199,11 @@
       }
 
       async function createNewDoc() {
-        outputBox.textContent = `Creating new interactive document...`;
+       
         const title = document.getElementById("newDocTitle").value;
         const content = document.getElementById("newDocContent").value;
         const outputBox = document.getElementById("newDocOutput");
-
+        outputBox.textContent = `Creating new interactive document...`;
         if (!title || !content) {
           outputBox.textContent =
             "Please enter a title and content for the document!";
