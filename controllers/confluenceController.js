@@ -10,7 +10,7 @@ class ConfluenceController {
     try {
       const pageContent = await confluenceService.fetchPage(pageId);
       logger.info(`Successfully handled request for page ID: ${pageId}`);
-      res.json({status: true, data: pageContent});
+      res.json({status: true, ...pageContent});
     } catch (error) {
       logger.error(`Failed to fetch Confluence page ${pageId}: ${error.message}`);
       res.status(500).json({ status: false, error: error.message });

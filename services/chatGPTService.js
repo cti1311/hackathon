@@ -18,7 +18,7 @@ class ChatGPTService {
               {
                 "type": "text",
                 "text": `
-                  You are an assistant that creats a confluence page with user input as the content, you will need to summarize the content and provide detailed techical specs. The output should be formatted in html.
+                  You are an assistant that creats a confluence page with user input as the content, you will need to summarize the content and provide detailed techical specs. The output must be formatted in html without any html, head or body tags.
                 `
               }
             ]
@@ -47,19 +47,17 @@ class ChatGPTService {
   }
 
   async generateTextFromCode(prompt) {
-    logger.info(`Generating text with ChatGPT for prompt: "${prompt}"`);
+    logger.info(`Generating text from code with ChatGPT for prompt: "${prompt}"`);
     try {
       const completion = await openai.chat.completions.create({
-        model: "gpt-4o",
+        model: "gpt-4o-mini",
         messages: [
           {
             "role": "system",
             "content": [
               {
                 "type": "text",
-                "text": `
-                  Write a confluence page for the code
-                `
+                "text": `Write a confluence page for the code provided by the user. The output must be formatted in html without any html, head or body tags.`
               }
             ]
           },

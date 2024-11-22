@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrawlSpace</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 50px;
+      }
+      .tabs {
+        display: flex;
+        border-bottom: 2px solid #ccc;
+      }
+      .tab {
+        padding: 10px 20px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        border-bottom: none;
+        margin-right: 5px;
+      }
+      .tab.active {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+      }
+      .content {
+        display: none;
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+      }
+      .content.active {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CrawlSpace</h1>
+
+    <div class="tabs">
+      <div class="tab active" onclick="switchTab('refactor')">Document Overhaul</div>
+      <div class="tab" onclick="switchTab('code-to-doc')">Code2Doc</div>
+      <div class="tab" onclick="switchTab('create-new-doc')">
+        Create interactive documents
+      </div>
+    </div>
+
+    <div id="refactor" class="content active">
+      <h2>Make your documents interactive</h2>
+      <p>Enter your confluence page id to refactor:</p>
+      <textarea
+        id="refactorInput"
+        rows="2"
+        cols="25"
+        placeholder="Paste your confluence page id here..."
+      ></textarea
+      ><br />
+      <button onclick="submitRefactor()">Submit</button>
+      <div id="refactorOutput">Output will appear here.</div>
+    </div>
+
+    <div id="code-to-doc" class="content">
+      <h2>Code2Doc</h2>
+      <p>Convert code to documentation:</p>
+      <textarea
+        id="codeToDocInput"
+        rows="25"
+        cols="100"
+        placeholder="Paste your code here..."
+      ></textarea
+      ><br />
+      <button onclick="submitCodeToDoc()">Submit</button>
+      <div id="codeToDocOutput">Output will appear here.</div>
+    </div>
+
+    <div id="create-new-doc" class="content">
+      <h2>Create a new interactive document</h2>
+      <input type="text" id="newDocTitle" placeholder="Document Title" /><br />
+      <textarea
+        id="newDocContent"
+        rows="25"
+        cols="100"
+        placeholder="Enter document content..."
+      ></textarea
+      ><br />
+      <button onclick="createNewDoc()">Create</button>
+      <div id="newDocOutput">Output will appear here.</div>
+    </div>
+
+    <script>
+      function switchTab(tabId) {
+        const tabs = document.querySelectorAll(".tab");
+        const contents = document.querySelectorAll(".content");
+
+        tabs.forEach((tab) => {
+          tab.classList.remove("active");
+          if (tab.textContent.toLowerCase().replace(/ /g, "-") === tabId) {
+            tab.classList.add("active");
+          }
+        });
+
+        contents.forEach((content) => {
+          content.classList.remove("active");
+          if (content.id === tabId) {
+            content.classList.add("active");
+          }
+        });
+      }
+
+      async function submitRefactor() {
+        const input = document.getElementById("refactorInput").value;
+        const outputBox = document.getElementById("refactorOutput");
+
+        if (!input) {
+          outputBox.textContent = "Please enter something!";
+          return;
+        }
+
+        try {
+          const response = await fetch(
+            `http://localhost:3000/api/getContentFromConfluence/${input}`,
+            {
+              method: "GET",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              // body: JSON.stringify({ data: input }),
+            }
+          );
+
+          if (response.ok) {
+            const result = await response.json();
+            console.log(result);
+            outputBox.textContent = `Confluence page fetched, restructuring the content...`;
+
+            const raw = JSON.stringify({
+              spaceKey: "TestSpace",
+              title: result.title,
+              prompt: result.content,
+            });
+            const chatgptResponse = await fetch(
+              `http://localhost:3000/api/chatgpt/create-confluence-page`,
+              {
+                method: "post",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: raw,
+              }
+            );
+            const createPageResponse = await chatgptResponse.json();
+            const confluenceLink = `https://payuindia.atlassian.net/wiki${createPageResponse._links.webui}`;
+            outputBox.innerHTML = confluenceLink;
+            window.open(confluenceLink, "_blank");
+          } else {
+            outputBox.textContent = ` Failed to fetch page with ID: ${input}`;
+          }
+        } catch (error) {
+          outputBox.textContent = `Error: ${error.message}`;
+        }
+      }
+
+      async function submitCodeToDoc() {
+        outputBox.textContent = `Conveting the code into interactive document...`;
+        const input = document.getElementById("codeToDocInput").value;
+        const outputBox = document.getElementById("codeToDocOutput");
+
+        if (!input) {
+          outputBox.textContent = "Please enter code to create interactive document!";
+          return;
+        }
+
+        try {
+            const raw = JSON.stringify({
+              spaceKey: "TestSpace",
+              title: "result.title",
+              prompt: input,
+            });
+            const chatgptResponse = await fetch(
+              `http://localhost:3000/api/chatgpt/create-confluence-page-using-code`,
+              {
+                method: "post",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: raw,
+              }
+            );
+            const createPageResponse = await chatgptResponse.json();
+            const confluenceLink = `https://payuindia.atlassian.net/wiki${createPageResponse._links.webui}`;
+            outputBox.innerHTML = confluenceLink;
+            window.open(confluenceLink, "_blank");
+          } catch (error) {
+          outputBox.textContent = `Error: ${error.message}`;
+        }
+      }
+
+      async function createNewDoc() {
+        outputBox.textContent = `Creating new interactive document...`;
+        const title = document.getElementById("newDocTitle").value;
+        const content = document.getElementById("newDocContent").value;
+        const outputBox = document.getElementById("newDocOutput");
+
+        if (!title || !content) {
+          outputBox.textContent =
+            "Please enter a title and content for the document!";
+          return;
+        }
+
+        try {
+            const raw = JSON.stringify({
+              spaceKey: "TestSpace",
+              title: title + " #" + Math.floor(Math.random()*100000) ,
+              prompt: content,
+            });
+            const chatgptResponse = await fetch(
+              `http://localhost:3000/api/chatgpt/create-confluence-page`,
+              {
+                method: "post",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: raw,
+              }
+            );
+            const createPageResponse = await chatgptResponse.json();
+            const confluenceLink = `https://payuindia.atlassian.net/wiki${createPageResponse._links.webui}`;
+            outputBox.innerHTML = confluenceLink;
+            window.open(confluenceLink, "_blank");
+          } catch (error) {
+          outputBox.textContent = `Error: ${error.message}`;
+        }
+      }
+    </script>
+  </body>
+</html>
