@@ -1,0 +1,11 @@
+{
+    "payu.merchantId": "",
+    "payu.apiKey": "",
+    "payu.environment": "sandbox",
+    "payu.defaultLanguage": "javascript",
+    "payu.selectedServices": [
+        "Payment Form",
+        "Server-side Integration",
+        "Webhook Handler"
+    ]
+}
